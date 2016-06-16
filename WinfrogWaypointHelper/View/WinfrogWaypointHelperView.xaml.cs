@@ -104,7 +104,7 @@ namespace WinfrogWaypointHelper.View
 
 
                 //Name,Lat,Long,Shape(17 is default),Radius,Northing,Easting,Colour,Elevation
-                ResultsTextBox.Text = ResultsTextBox.Text + nameString + ",N00 00.000000000,E00 00.0000000000," + iconString + "," + radiusString + "," + northingsString + "," + eastingsString + "," + colorDecimalInt + "," + depthString + Environment.NewLine;
+                ResultsTextBox.Text = ResultsTextBox.Text + nameString + ",,," + iconString + "," + radiusString + "," + northingsString + "," + eastingsString + "," + colorDecimalInt + "," + depthString + Environment.NewLine;
 
             }
 
@@ -164,15 +164,26 @@ namespace WinfrogWaypointHelper.View
             customAvailableColors.Add(new ColorItem(Color.FromRgb(128, 255, 255), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(0, 128, 255), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(255, 128, 192), ""));
+            customAvailableColors.Add(new ColorItem(Color.FromRgb(255, 128, 255), ""));
+
             customAvailableColors.Add(new ColorItem(Color.FromRgb(255, 0, 0), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(255, 255, 0), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(128, 255, 0), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(0, 255, 64), ""));
+            customAvailableColors.Add(new ColorItem(Color.FromRgb(0, 255, 255), ""));
+            customAvailableColors.Add(new ColorItem(Color.FromRgb(0, 128, 192), ""));
+            customAvailableColors.Add(new ColorItem(Color.FromRgb(128, 128, 192), ""));
+            customAvailableColors.Add(new ColorItem(Color.FromRgb(255, 0, 255), ""));
+
+            customAvailableColors.Add(new ColorItem(Color.FromRgb(128, 64, 64), ""));
+            customAvailableColors.Add(new ColorItem(Color.FromRgb(255, 128, 64), ""));
+            customAvailableColors.Add(new ColorItem(Color.FromRgb(0, 255, 0), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(0, 128, 128), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(0, 64, 128), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(128, 128, 255), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(128, 0, 64), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(255, 0, 128), ""));
+
             customAvailableColors.Add(new ColorItem(Color.FromRgb(128, 0, 0), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(255, 128, 0), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(0, 128, 0), ""));
@@ -181,16 +192,16 @@ namespace WinfrogWaypointHelper.View
             customAvailableColors.Add(new ColorItem(Color.FromRgb(0, 0, 160), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(128, 0, 128), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(128, 0, 255), ""));
+
             customAvailableColors.Add(new ColorItem(Color.FromRgb(64, 0, 0), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(128, 64, 0), ""));
-            customAvailableColors.Add(new ColorItem(Color.FromRgb(0, 64, 0), ""));
-            customAvailableColors.Add(new ColorItem(Color.FromRgb(0, 64, 64), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(0, 64, 0), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(0, 64, 64), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(0, 0, 128), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(0, 0, 64), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(64, 0, 64), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(64, 0, 128), ""));
+
             customAvailableColors.Add(new ColorItem(Color.FromRgb(0, 0, 0), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(128, 128, 0), ""));
             customAvailableColors.Add(new ColorItem(Color.FromRgb(128, 128, 64), ""));
